@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity
 
     Button buttonSignIn;
     Dialog myDialog;
-    /* test*/
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
