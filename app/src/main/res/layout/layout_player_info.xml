@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:scrollbars="vertical">
+
+    <ImageView
+        android:id="@+id/playerImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_menu_gallery"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignTop="@+id/playerImage"
+        android:layout_toRightOf="@+id/playerImage"
+        android:layout_toEndOf="@+id/playerImage" />
+
+    <TextView
+        android:id="@+id/playerGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_below="@+id/playerName"
+        android:layout_alignLeft="@+id/playerName"
+        android:layout_alignStart="@+id/playerName" />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/playerGenre"
+        android:layout_marginTop="10dp"
+        android:padding="4dp"
+        android:background="@color/white"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Batting"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:background="@color/colorPrimaryTheme"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:background="@color/colorPrimaryTheme"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Matches"
+                android:padding="3dip" />
+            <TextView
+                android:text="10"
+                android:id="@+id/p_batMatches"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Innings"
+                android:padding="3dip" />
+            <TextView
+                android:text="5"
+                android:id="@+id/p_batInnings"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Runs"
+                android:padding="3dip" />
+            <TextView
+                android:text="100"
+                android:id="@+id/p_batRuns"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="4s"
+                android:padding="3dip" />
+            <TextView
+                android:text="8"
+                android:id="@+id/p_fours"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="6s"
+                android:padding="3dip" />
+            <TextView
+                android:text="4"
+                android:id="@+id/p_sixes"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Highest"
+                android:padding="3dip" />
+            <TextView
+                android:text="25"
+                android:id="@+id/p_batHigest"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="0s"
+                android:padding="3dip" />
+            <TextView
+                android:text="5"
+                android:id="@+id/p_0s"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimaryTheme" />
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Bowling"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:background="@color/colorPrimaryTheme"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:background="@color/colorPrimaryTheme"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Matches"
+                android:padding="3dip" />
+            <TextView
+                android:text="10"
+                android:id="@+id/p_bowMatches"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Innings"
+                android:padding="3dip" />
+            <TextView
+                android:text="5"
+                android:id="@+id/p_bowInnings"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Overs"
+                android:padding="3dip" />
+            <TextView
+                android:text="15"
+                android:id="@+id/p_bowOvers"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Wkts"
+                android:padding="3dip" />
+            <TextView
+                android:text="12"
+                android:id="@+id/p_wkts"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Maidens"
+                android:padding="3dip" />
+            <TextView
+                android:text="4"
+                android:id="@+id/p_maidens"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="BBM"
+                android:padding="3dip" />
+            <TextView
+                android:text="10/3"
+                android:id="@+id/p_bowBest"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/colorPrimaryTheme" />
+    </TableLayout>
+
+</RelativeLayout>
+    </ScrollView>

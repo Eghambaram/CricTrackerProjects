@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CricTrack</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+
+    <string name="nav_header_user">Hello Guest!</string>
+
+    <string name="home_activity">Home</string>
+    <string name="activity_login">My CricTrack</string>
+    <string name="activity_player">Player Profiles</string>
+    <string name="player_info">Player Information</string>
+    <string name="title_activity_player_update">Admin Settings</string>
+    <string name="title_activity_stats">Series Stats</string>
+
+    <string name="hint_dob">Enter D.O.B (DD/MM/YYYY)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_gender">I am</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btn_sign_up">Sign Up !!</string>
+    <string name="err_msg_name">Please enter a Name</string>
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_email">Please enter a Valid Email</string>
+    <string name="err_msg_password">Enter a Password</string>
+    <string name="err_msg_dob">Enter a valid D.O.B</string>
+
+    <string name="btn_add_player">Add player</string>
+    <string name="btn_update_player">Update player</string>
+    <string name="btn_delete_player">Delete player</string>
+    <string name="hint_playerName">Player Name</string>
+    <array name="genres">
+        <item>Bowler</item>
+        <item>Batsman</item>
+        <item>All Rounder</item>
+    </array>
+
+    <array name="category" >
+        <item>Most Runs</item>
+        <item>Most Wickets</item>
+        <item>Most Fours</item>
+        <item>Most Sixes</item>
+        <item>Highest Score</item>
+    </array>
+
+</resources>

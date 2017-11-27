@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466021793245",
+    "firebase_url": "https://crictracker-160df.firebaseio.com",
+    "project_id": "crictracker-160df",
+    "storage_bucket": "crictracker-160df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466021793245:android:b6ede73ae836913d",
+        "android_client_info": {
+          "package_name": "demo.myapp.com.crictracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466021793245-igadugaob0os3kpnoq2t9d1rp2mlu731.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.myapp.com.crictracker",
+            "certificate_hash": "6e3ef82bf1ee0fe32a4f614b1701ab49553b4f27"
+          }
+        },
+        {
+          "client_id": "466021793245-1ftfva2e0ejfnglvu4u4c5oo0d914ajn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt5eWA8CEiqwvU5Ef20hK2IJ2jE8oCFiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466021793245-1ftfva2e0ejfnglvu4u4c5oo0d914ajn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
