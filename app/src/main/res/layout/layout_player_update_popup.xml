@@ -81,10 +81,12 @@
                     android:text="Matches"
                     android:padding="3dip" />
                 <EditText
+                    android:layout_column="1"
                     android:text="10"
                     android:inputType="number"
                     android:id="@+id/p_batMatches"
                     android:gravity="right"
+                    android:width="@dimen/icon_text"
                     android:padding="3dip" />
             </TableRow>
 
@@ -111,6 +113,7 @@
                     android:inputType="number"
                     android:id="@+id/p_batRuns"
                     android:gravity="right"
+                    android:width="@dimen/icon_text"
                     android:padding="3dip" />
             </TableRow>
 
@@ -261,7 +264,7 @@
                     android:padding="3dip" />
                 <EditText
                     android:text="10/3"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:id="@+id/p_bowBest"
                     android:gravity="right"
                     android:padding="3dip" />

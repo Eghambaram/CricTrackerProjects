@@ -33,6 +33,13 @@
     <string name="btn_update_player">Update player</string>
     <string name="btn_delete_player">Delete player</string>
     <string name="hint_playerName">Player Name</string>
+
+
+    <string name="radio_wickets">Max. Wickets</string>
+    <string name="radio_4s">Max. 4s</string>
+    <string name="radio_6s">Max. 6s</string>
+    <string name="radio_runs">Max. Runs</string>
+    <string name="btn_filter">Apply</string>
     <array name="genres">
         <item>Bowler</item>
         <item>Batsman</item>
